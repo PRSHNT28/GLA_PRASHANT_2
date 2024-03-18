@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Store API Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fake Store API Products</h1>
+        <label for="sort">Sort By:</label>
+        <select id="sort">
+            <option value="asc">Price Ascending</option>
+            <option value="desc">Price Descending</option>
+        </select>
+        <label for="category">Filter By Category:</label>
+        <select id="category">
+            <option value="">All</option>
+            <option value="men's clothing">Men's Clothing</option>
+            <option value="jewelery">Jewelry</option>
+            <option value="electronics">Electronics</option>
+            <option value="women's clothing">Women's Clothing</option>
+        </select>
+        <div id="products"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
